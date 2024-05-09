@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'MOXABestine';
+  src: local('MOXABestine'), url(../fonts/MOXABestine.otf) format('opentype');
+}
+
+#root {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title{
+  font-family: MOXABestine, serif;
+}
+
+

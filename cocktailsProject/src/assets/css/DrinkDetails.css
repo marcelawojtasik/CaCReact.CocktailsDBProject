@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'MOXABestine';
+    src: local('MOXABestine'), url(../fonts/MOXABestine.otf) format('opentype');
+}
+@font-face {
+    font-family: 'TellMeAJoke';
+    src: local('TellMeAJoke'), url(../fonts/TellMeAJoke.ttf);
+}
+
+.drinkDetail{
+    font-family: TellMeAJoke, Roboto, Verdana, sans-serif;   
+    color: rgb(248, 220, 180);
+    font-size: x-large;
+}
+
+.drinkName{
+    font-family: MOXABestine;
+    color: rgb(197, 238, 91);
+    font-weight: 900;
+}

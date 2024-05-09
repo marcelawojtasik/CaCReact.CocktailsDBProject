@@ -1,0 +1,15 @@
+.drinkCard{    
+    list-style: none;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;    
+    background-color: rgb(224, 178, 125);    
+    color:darkolivegreen
+}
+
+.drinkImg{
+    border-radius: 10px;
+    width: 250px;   
+}
