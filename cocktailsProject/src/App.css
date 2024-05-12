@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MOXABestine';
-  src: local('MOXABestine'), url(../fonts/MOXABestine.ttf);
+  src: local('MOXABestine'), url(../src/assets/fonts/MOXABestine.ttf);
 }
 
 #root {
@@ -13,5 +13,3 @@
 .title{
   font-family: MOXABestine;
 }
-
-
