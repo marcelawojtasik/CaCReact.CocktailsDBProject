@@ -9,13 +9,13 @@ export const App = () => {
     <>
     <BrowserRouter>
     <header>
-      <Link to = "/">
+      <Link to = "/CaCReact.CocktailsDBProject">
       <h1 className="title">Taaaragos</h1>
       </Link>
     </header>
 
     <Routes>
-      <Route path = "/" element = {<LandingPage/>} /> 
+      <Route path = "/CaCReact.CocktailsDBProject" element = {<LandingPage/>} /> 
       <Route path = "/tragos/:tragosId" element = { <DrinkDetails/> } />  
       <Route path = "/receta/:tragosId" element = { <DrinkRecipe/> } /> 
     </Routes>

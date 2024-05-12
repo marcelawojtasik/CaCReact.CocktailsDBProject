@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@font-face {
+    font-family: 'MOXABestineScript';
+    src: local('MOXABestineScript'), url(../fonts/MOXABestineScript.ttf);
+}
+
+.random{
+    margin: 4rem;
+}
+
+.randomDrink{    
+    font-family: Amatic SC, serif;
+    max-width: 16rem;
+    margin: auto;
+    padding: 2rem;
+}
+
+.randomTitle{
+    color: antiquewhite;
+    line-height: 3rem;  
+    margin: -1rem;  
+    font-family: MOXABestineScript;
+    font-size: 3.5rem;
+}
