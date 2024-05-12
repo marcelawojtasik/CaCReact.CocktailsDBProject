@@ -1,6 +1,8 @@
 import { get } from "../utils/conexionDetailsAPI"
 import { useState, useEffect } from "react"
 import { useParams, Link } from "react-router-dom"
+import "../assets/css/DrinkDetails.css"
+
 
 export const DrinkDetails = () => {    
     const [drink, setDrinks] = useState(null)
@@ -13,7 +15,8 @@ export const DrinkDetails = () => {
     }, [tragosId])    
     if(!drink){        
         return (
-            "Algo raro pasa..."
+            <p className="loading">"Algo raro pasa..."</p>
+            
         )        
     }
 

@@ -1,5 +1,6 @@
 import {DrinkCard} from "./DrinkCard"
 import {get} from "../utils/conexionAPI"
+import {get2} from "../utils/conexionAPI"
 import {useState, useEffect} from "react"
 import "../assets/css/DrinksGrid.css"
 
@@ -12,7 +13,6 @@ get().then((data) => {
     console.log(data.drinks)
     setDrinks(data.drinks)
 })
-
 }, [])
 
 return(
@@ -22,5 +22,6 @@ return(
         ))}
     </ul>
 )
-
 }
+
+

@@ -2,13 +2,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import { LandingPage } from "./pages/LandingPage"
 import { DrinkDetails } from "./pages/DrinkDetails"
 import { DrinkRecipe } from "./pages/DrinkRecipe"
-import {Taaaragos} from "./pages/Taaaragos"
-
-
 import './App.css'
 
 export const App = () => {
-
   return (
     <>
     <BrowserRouter>
@@ -22,12 +18,9 @@ export const App = () => {
       <Route path = "/" element = {<LandingPage/>} /> 
       <Route path = "/tragos/:tragosId" element = { <DrinkDetails/> } />  
       <Route path = "/receta/:tragosId" element = { <DrinkRecipe/> } /> 
-      <Route path = "/drinks/:tragosStr" element = { <Taaaragos/> } />    
     </Routes>
 
     </BrowserRouter>
     </>
-
-
   )
 }

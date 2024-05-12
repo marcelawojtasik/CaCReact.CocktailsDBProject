@@ -9,22 +9,12 @@ export const DrinkCard = ({drink}) => {
         <li className="drinkCard">
             <Link to = {`/tragos/${drink.idDrink}`} className="drinkCard"> 
             <img className="drinkImg" src={drink.strDrinkThumb} alt={drink.strCategory} />
-            <p>{drink.strCategory} {drink.strDrink}</p>
-            <p className="drinkAlcohol">
+            <h2>{drink.strCategory} {drink.strDrink}</h2>
+            <small className="drinkAlcohol">
                 {drink.strAlcoholic}
-            </p>
-            <p className="drinkGlass">Se sirve en: {drink.strGlass}</p>
-            <p>Como se hace: {drink.strInstructions}</p>
+            </small>
+            <p className="drinkGlass">Se sirve en: {drink.strGlass}</p>        
             </Link>
-            {/* <Link to = {`/drinks/${drink.strDrink}`} className="drinkCard"> 
-            <img className="drinkImg" src={drink.strDrinkThumb} alt={drink.strCategory} />
-            <p>{drink.strCategory} {drink.strDrink}</p>
-            <p className="drinkAlcohol">
-                {drink.strAlcoholic}
-            </p>
-            <p className="drinkGlass">Se sirve en: {drink.strGlass}</p>
-            <p>Como se hace: {drink.strInstructions}</p>
-            </Link> */}
         </li>
     )
 }

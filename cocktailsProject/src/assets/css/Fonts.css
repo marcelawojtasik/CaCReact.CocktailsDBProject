@@ -2,5 +2,5 @@
 
 @font-face {
     font-family: 'MOXA Bestine';
-    src: local('MOXA Bestine'), url(../fonts/MOXABestine.otf) format('opentype');
+    src: local('MOXA Bestine'), url(../fonts/MOXABestine.ttf);
 }
